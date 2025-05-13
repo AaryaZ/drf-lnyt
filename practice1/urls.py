@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('stuinfo/<int:pk>', views.student_details, name='student_details'),
     path('stuinfo/', views.student_list),
+    path('stucreate/', views.student_create),
 ]

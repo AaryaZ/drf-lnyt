@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Virtual environments
+venv/
+env/
+denv/
+
+# Environment variables
+.env
+.env.*
+
+# SQLite (optional if you're using PostgreSQL only)
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python 3.11+ __pypackages__
+__pypackages__/

@@ -39,5 +39,6 @@ def student_create(request):
             res = {'msg': 'Data created successfully'}
             return JsonResponse(res, status=201,safe=False)
         return JsonResponse({'error': serializer.errors}, status=405,safe=False)
+    return JsonResponse({'error': 'Only POST method is allowed'}, status=405)
     
     

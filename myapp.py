@@ -10,10 +10,10 @@ URL = 'http://127.0.0.1:8000/stucreate/'
 
 
 data = {
-    'name': 'Srushti',
-    'age': 14,
-    'email':'chinu@gmail.com',
-    'address': 'Tere liyeee charoon aur dhundha meine mil gayiiii jo tu mujhe mil gaya saara jahaan sara yahaan ab chahooon mein kya. Mere liye sapna tha ye pyaar tera kholu aankhen samne tha mere liye yaar mera pyaar mera ab chahoon mein kya',
+    'name': 'Pradyumna',
+    'age': 3,
+    'email':'prd@gmail.com',
+    'address': 'shimmi shimmi yay shimmi yay shimmi yay',
     'city': 'Khopoli'
 }
 json_data = json.dumps(data)
